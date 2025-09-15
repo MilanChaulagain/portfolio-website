@@ -33,11 +33,11 @@ const Hero = () => {
             </h1>
             
             <p className="text-xl lg:text-2xl text-muted-foreground mb-6 leading-relaxed">
-              Full-Stack Developer & BSc.CSIT Student
+              Full-Stack Developer && BSc.CSIT, Nist College
             </p>
             
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              I’m a motivated final-year Computer Science student with a strong foundation in React.js and Express.js. Passionate about building dynamic, user-friendly web applications, I’m eager to apply my skills, contribute to impactful projects, and continue growing as a full-stack web developer in real-world environments.
+              I’m a motivated final-year Computer Science student with a strong foundation in frontend and backend web development. Passionate about building dynamic, user-friendly web applications, I’m eager to apply my skills, contribute to impactful projects, and continue growing as a full-stack web developer in real-world environments.
             </p>
             
             {/* Contact Info */}
@@ -48,7 +48,7 @@ const Hero = () => {
               </div>
               <div className="flex items-center gap-2 glass-effect px-4 py-2 rounded-full smooth-transition hover:shadow-glow-primary">
                 <Phone size={16} className="text-primary" />
-                <span className="text-sm">+977 9861029623</span>
+                <span className="text-sm">+977 9861029223</span>
               </div>
             </div>
             
