@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-hero-bg relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center bg-hero-bg relative overflow-hidden pt-20 md:pt-24 lg:pt-0 pb-12">
       {/* Animated background elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-20 w-32 h-32 bg-gradient-primary rounded-full opacity-20 animate-float"></div>
@@ -14,8 +14,8 @@ const Hero = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
           {/* Profile Image */}
-          <div className="relative">
-            <div className="w-80 h-80 rounded-full overflow-hidden glass-effect p-2 hero-glow animate-pulse-glow">
+          <div className="relative mt-2 md:mt-0">
+            <div className="w-56 h-56 sm:w-64 sm:h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden glass-effect p-2 hero-glow animate-pulse-glow mx-auto">
               <img 
                 src={`/images/profilepic.jpg`} 
                 alt="Milan Chaulagain" 
