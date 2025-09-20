@@ -65,10 +65,10 @@ const Footer = () => {
             </p>
             <p className="text-muted-foreground">
               <a 
-                href="tel:+9779861029623" 
+                href="tel:+9779861029223" 
                 className="hover:text-primary smooth-transition"
               >
-                +977 9861029623
+                +977 9861029223
               </a>
             </p>
             <p className="text-sm text-muted-foreground">Kathmandu, Nepal</p>
